@@ -5,9 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SailboatUI_Grid"
         mc:Ignorable="d"
-        Title="MainWindow" 
-        Height="450" Width="600" 
-        SizeToContent="Width" >
+        Title="Sailboat speed calculator with grid"
+        
+        Height="300" Width="475"
+        MinHeight="200" MinWidth="375" 
+        SizeToContent="Width">
+        <!--Above settings for default size and minimum size-->
+    
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="20"/> <!--Border left-->
@@ -91,7 +95,7 @@
                    Margin="3" 
                    Text="knots"/>
 
-
+        <!--Image-->
         <Image Source="sailbotImage.jpg" 
                Margin="10" 
                VerticalAlignment="Top"
@@ -99,7 +103,5 @@
                Grid.Column="4"
                Grid.RowSpan="5"
                Grid.Row="1"/>
-
-
     </Grid>
 </Window>

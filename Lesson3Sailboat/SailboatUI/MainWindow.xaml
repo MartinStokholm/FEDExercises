@@ -5,9 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SailboatUI"
         mc:Ignorable="d"
-        Title="MainWindow" 
-        Height="450" Width="auto" 
+        Title="Sailboat speed calculator no grid" 
+        Height="300" Width="465"
+        MinHeight="200" MinWidth="395" 
         SizeToContent="Width" >
+    
     <Grid>
 <!--Outer SP groups left side buttons and input with image horizontal-->
         <StackPanel Orientation="Horizontal">
@@ -24,12 +26,12 @@
 
                 <WrapPanel>
                     <Label Margin="3" Content="_Name: "/>
-                
+
                     <TextBox Name="tbxName"
                              Margin="5"
                              MinWidth="200"                             TextChanged="tbxName_TextChanged" />
                 </WrapPanel>
-                
+
                 <Button Name="btnCalculateHullSpeed"
                         Content="Calculate Hull Speed"
                         FontWeight="Bold"
@@ -37,12 +39,13 @@
                         Margin='5'
                         Padding="5,0"
                         Click="btnCalculateHullSpeed_Click"  IsDefault="True" />
-                
+
                 <WrapPanel>
                     <TextBlock Margin="3" >Hull speed:</TextBlock>
                     <TextBlock Margin="3" MinWidth="44" Name="tbxHullSpeed" />
                     <TextBlock Margin="3" Text="knots"/>
-                </WrapPanel>
+                </WrapPanel>
+                
             </StackPanel>
 
             <Image Source="sailbotImage.jpg" 
@@ -50,9 +53,6 @@
                    HorizontalAlignment="Left"
                    Margin="10" 
                    Stretch="UniformToFill"/>
-
         </StackPanel>
-
-
     </Grid>
 </Window>
