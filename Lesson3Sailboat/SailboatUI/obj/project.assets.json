@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\msldk\\Desktop\\Uni\\SoftwareTeknologi\\4Semester\\FED\\FEDExercises\\Lesson3Sailboat\\SailboatUI\\SailboatUI.csproj",
-      "projectName": "SailboatUI",
-      "projectPath": "C:\\Users\\msldk\\Desktop\\Uni\\SoftwareTeknologi\\4Semester\\FED\\FEDExercises\\Lesson3Sailboat\\SailboatUI\\SailboatUI.csproj",
+      "projectUniqueName": "C:\\Users\\msldk\\Desktop\\Uni\\SoftwareTeknologi\\4Semester\\FED\\FEDExercises\\Lesson3Sailboat\\SailboatUI\\SailboatUI_NoGrid.csproj",
+      "projectName": "SailboatUI_NoGrid",
+      "projectPath": "C:\\Users\\msldk\\Desktop\\Uni\\SoftwareTeknologi\\4Semester\\FED\\FEDExercises\\Lesson3Sailboat\\SailboatUI\\SailboatUI_NoGrid.csproj",
       "packagesPath": "C:\\Users\\msldk\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\msldk\\Desktop\\Uni\\SoftwareTeknologi\\4Semester\\FED\\FEDExercises\\Lesson3Sailboat\\SailboatUI\\obj\\",
       "projectStyle": "PackageReference",

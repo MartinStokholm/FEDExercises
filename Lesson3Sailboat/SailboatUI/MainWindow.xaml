@@ -14,31 +14,29 @@
             <!--Nested SP vertical alligment for the input fields-->
             <StackPanel Orientation="Vertical">
                 <WrapPanel>
-                    <Label Margin="3" Content="_Length: " Panel.ZIndex="3"/>
+                    <Label Margin="3" Content="_Length: "/>
                     <TextBox Name="tbxLength"
-                             Margin="3"
+                             Margin="5"
                              MinWidth="50"
-                             Panel.ZIndex="4" 
                              TextChanged="tbxLength_TextChanged"/>
                     <Label Margin="3" Content="feet"/>
                 </WrapPanel>
 
                 <WrapPanel>
-                    <Label Margin="3" Content="_Name: " Panel.ZIndex="1"/>
+                    <Label Margin="3" Content="_Name: "/>
                 
                     <TextBox Name="tbxName"
-                             Margin="3"
-                             MinWidth="200"
-                             Panel.ZIndex="2"                              TextChanged="tbxName_TextChanged" />
+                             Margin="5"
+                             MinWidth="200"                             TextChanged="tbxName_TextChanged" />
                 </WrapPanel>
                 
                 <Button Name="btnCalculateHullSpeed"
                         Content="Calculate Hull Speed"
                         FontWeight="Bold"
                         HorizontalAlignment="Center"
-                        Margin='3'
+                        Margin='5'
                         Padding="5,0"
-                        Panel.ZIndex="5" Click="btnCalculateHullSpeed_Click"  IsDefault="True" />
+                        Click="btnCalculateHullSpeed_Click"  IsDefault="True" />
                 
                 <WrapPanel>
                     <TextBlock Margin="3" >Hull speed:</TextBlock>
@@ -47,7 +45,11 @@
                 </WrapPanel>
             </StackPanel>
 
-            <Image Source="sailbotImage.jpg" Margin="10,10,10,10" Stretch="Uniform"/>
+            <Image Source="sailbotImage.jpg" 
+                   VerticalAlignment="Top"
+                   HorizontalAlignment="Left"
+                   Margin="10" 
+                   Stretch="UniformToFill"/>
 
         </StackPanel>
 

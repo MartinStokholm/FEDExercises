@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "SailboatUI_NoGrid/1.0.0": {
+        "runtime": {
+          "SailboatUI_NoGrid.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SailboatUI_NoGrid/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
