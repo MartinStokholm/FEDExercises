@@ -1,0 +1,56 @@
+﻿<Window x:Class="SailboatUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SailboatUI"
+        mc:Ignorable="d"
+        Title="MainWindow" 
+        Height="450" Width="auto" 
+        SizeToContent="Width" >
+    <Grid>
+<!--Outer SP groups left side buttons and input with image horizontal-->
+        <StackPanel Orientation="Horizontal">
+            <!--Nested SP vertical alligment for the input fields-->
+            <StackPanel Orientation="Vertical">
+                <WrapPanel>
+                    <Label Margin="3" Content="_Length: " Panel.ZIndex="3"/>
+                    <TextBox Name="tbxLength"
+                             Margin="3"
+                             MinWidth="50"
+                             Panel.ZIndex="4" 
+                             TextChanged="tbxLength_TextChanged"/>
+                    <Label Margin="3" Content="feet"/>
+                </WrapPanel>
+
+                <WrapPanel>
+                    <Label Margin="3" Content="_Name: " Panel.ZIndex="1"/>
+                
+                    <TextBox Name="tbxName"
+                             Margin="3"
+                             MinWidth="200"
+                             Panel.ZIndex="2"                              TextChanged="tbxName_TextChanged" />
+                </WrapPanel>
+                
+                <Button Name="btnCalculateHullSpeed"
+                        Content="Calculate Hull Speed"
+                        FontWeight="Bold"
+                        HorizontalAlignment="Center"
+                        Margin='3'
+                        Padding="5,0"
+                        Panel.ZIndex="5" Click="btnCalculateHullSpeed_Click"  IsDefault="True" />
+                
+                <WrapPanel>
+                    <TextBlock Margin="3" >Hull speed:</TextBlock>
+                    <TextBlock Margin="3" MinWidth="44" Name="tbxHullSpeed" />
+                    <TextBlock Margin="3" Text="knots"/>
+                </WrapPanel>
+            </StackPanel>
+
+            <Image Source="sailbotImage.jpg" Margin="10,10,10,10" Stretch="Uniform"/>
+
+        </StackPanel>
+
+
+    </Grid>
+</Window>
