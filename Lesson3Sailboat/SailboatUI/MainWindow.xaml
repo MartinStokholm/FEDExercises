@@ -29,7 +29,8 @@
 
                     <TextBox Name="tbxName"
                              Margin="5"
-                             MinWidth="200"                             TextChanged="tbxName_TextChanged" />
+                             MinWidth="200"
+                             TextChanged="tbxName_TextChanged" />
                 </WrapPanel>
 
                 <Button Name="btnCalculateHullSpeed"

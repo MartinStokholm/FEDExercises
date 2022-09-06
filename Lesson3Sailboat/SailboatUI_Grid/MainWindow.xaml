@@ -7,16 +7,16 @@
         mc:Ignorable="d"
         Title="Sailboat speed calculator with grid"
         
-        Height="300" Width="475"
+        Height="350" Width="400"
         MinHeight="200" MinWidth="375" 
-        SizeToContent="Width">
+        SizeToContent="Width">   
         <!--Above settings for default size and minimum size-->
     
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="20"/> <!--Border left-->
-            <ColumnDefinition Width="100"/> <!--For Labels-->
-            <ColumnDefinition Width="100"/> <!--For input fields-->
+            <ColumnDefinition Width="20" /> <!--Border left-->
+            <ColumnDefinition Width="auto"/> <!--For Labels-->
+            <ColumnDefinition Width="auto"/> <!--For input fields-->
             <ColumnDefinition Width="auto"/> <!--Button will span over this-->
             <ColumnDefinition Width="*"/> <!--For image-->
             <ColumnDefinition Width="20"/> <!--Border right-->
@@ -24,11 +24,11 @@
         
         <Grid.RowDefinitions>
             <RowDefinition Height="20"/> <!--Border Top-->
-            <RowDefinition Height="30"/> <!--Length-->
-            <RowDefinition Height="30"/> <!--Name-->
-            <RowDefinition Height="40"/> <!--Button-->
-            <RowDefinition Height="30"/> <!--Hull speed-->
-            <RowDefinition Height="*"/> <!--Image-->
+            <RowDefinition Height="auto"/> <!--Length-->
+            <RowDefinition Height="auto"/> <!--Name-->
+            <RowDefinition Height="auto"/> <!--Button-->
+            <RowDefinition Height="auto"/> <!--Hull speed-->
+            <RowDefinition Height="*"/> <!--Image-->           
             <RowDefinition Height="20"/> <!--Border bottom-->
         </Grid.RowDefinitions>
         
@@ -74,9 +74,10 @@
                 Content="Calculate Hull Speed"
                 FontWeight="Bold"
                 Margin='5'
-                Padding="5"
+                Padding="10,5"
                 Click="btnCalculateHullSpeed_Click"  
-                IsDefault="True" />
+                IsDefault="True" 
+                />
         
         <!--Hull speed TextBlock-->     
         <TextBlock Grid.Column="1"
@@ -96,10 +97,11 @@
                    Text="knots"/>
 
         <!--Image-->
-        <Image Source="sailbotImage.jpg" 
-               Margin="10" 
+        <Image Source="sailbotImage.jpg"                              
+               Margin="10,0,10,0"
                VerticalAlignment="Top"
                HorizontalAlignment="Left"
+               MouseDown="Image_MouseDown"
                Grid.Column="4"
                Grid.RowSpan="5"
                Grid.Row="1"/>
