@@ -65,7 +65,6 @@ namespace SailboatUI_Grid
 
         private void tbxLength_TextChanged(object sender, TextChangedEventArgs e)
         {
-       
             if (tbxLength.Text.Trim() != "")
             {
                 try
@@ -87,8 +86,7 @@ namespace SailboatUI_Grid
 
         private void btnCalculateHullSpeed_Click(object sender, RoutedEventArgs e)
         {
-            tbxHullSpeed.Text = sailboat.Hullspeed().ToString("F1");
-            
+            tbxHullSpeed.Text = sailboat.Hullspeed().ToString("F1");            
         }
 
         private void Image_MouseDown(object sender, MouseButtonEventArgs e)
