@@ -1,0 +1,14 @@
+﻿<Application x:Class="TheDebtBook.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:TheDebtBook"
+             StartupUri="/Views/MainWindow.xaml">
+    <Application.Resources>
+        <Style x:Key="TextBoxStyle" TargetType="{x:Type TextBox}">
+            <Setter Property="FontSize" Value="12pt" />
+            <Setter Property="FontFamily" Value="Consolas" />
+            <Setter Property="BorderThickness" Value="3" />
+            <Setter Property="VerticalAlignment" Value="Top" />
+        </Style>
+    </Application.Resources>
+</Application>
