@@ -1,0 +1,120 @@
+C:\Users\per\Documents\Kurser\WIN1\Løsningsforslag\SimpleDrawLab\SimpleDrawLab\bin\Debug\SimpleDrawLab.exe
+C:\Users\per\Documents\Kurser\WIN1\Løsningsforslag\SimpleDrawLab\SimpleDrawLab\bin\Debug\SimpleDrawLab.pdb
+C:\Users\per\Documents\Kurser\WIN1\Løsningsforslag\SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\per\Documents\Kurser\WIN1\Løsningsforslag\SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\MainWindow.baml
+C:\Users\per\Documents\Kurser\WIN1\Løsningsforslag\SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\MainWindow.g.cs
+C:\Users\per\Documents\Kurser\WIN1\Løsningsforslag\SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\App.g.cs
+C:\Users\per\Documents\Kurser\WIN1\Løsningsforslag\SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\SimpleDrawLab_MarkupCompile.cache
+C:\Users\per\Documents\Kurser\WIN1\Løsningsforslag\SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\SimpleDrawLab.g.resources
+C:\Users\per\Documents\Kurser\WIN1\Løsningsforslag\SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\SimpleDrawLab.Properties.Resources.resources
+C:\Users\per\Documents\Kurser\WIN1\Løsningsforslag\SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\per\Documents\Kurser\WIN1\Løsningsforslag\SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\per\Documents\Kurser\WIN1\Løsningsforslag\SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\SimpleDrawLab.exe
+C:\Users\per\Documents\Kurser\WIN1\Løsningsforslag\SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\SimpleDrawLab.pdb
+C:\Users\per\Documents\Kurser\WIN1\Løsningsforslag\10SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\SimpleDrawLab.exe
+C:\Users\per\Documents\Kurser\WIN1\Løsningsforslag\10SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\SimpleDrawLab.pdb
+C:\Users\per\Documents\Kurser\WIN1\Løsningsforslag\10SimpleDrawLab\SimpleDrawLab\bin\Debug\SimpleDrawLab.exe
+C:\Users\per\Documents\Kurser\WIN1\Løsningsforslag\10SimpleDrawLab\SimpleDrawLab\bin\Debug\SimpleDrawLab.pdb
+C:\Users\per\Documents\Kurser\WIN1\Løsningsforslag\10SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\per\Documents\Kurser\WIN1\Løsningsforslag\10SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\MainWindow.baml
+C:\Users\per\Documents\Kurser\WIN1\Løsningsforslag\10SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\MainWindow.g.cs
+C:\Users\per\Documents\Kurser\WIN1\Løsningsforslag\10SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\App.g.cs
+C:\Users\per\Documents\Kurser\WIN1\Løsningsforslag\10SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\SimpleDrawLab_MarkupCompile.cache
+C:\Users\per\Documents\Kurser\WIN1\Løsningsforslag\10SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\SimpleDrawLab.g.resources
+C:\Users\per\Documents\Kurser\WIN1\Løsningsforslag\10SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\SimpleDrawLab.Properties.Resources.resources
+C:\Users\per\Documents\Kurser\WIN1\Løsningsforslag\10SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\per\Documents\Kurser\WIN1\Løsningsforslag\10SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\per\Documents\Kurser\I4GUI\Solutions\08SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\SimpleDrawLab.exe
+C:\Users\per\Documents\Kurser\I4GUI\Solutions\08SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\SimpleDrawLab.pdb
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Solutions\08SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\SimpleDrawLab.exe
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Solutions\08SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\SimpleDrawLab.pdb
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Solutions\08SimpleDrawLab\SimpleDrawLab\bin\Debug\SimpleDrawLab.exe
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Solutions\08SimpleDrawLab\SimpleDrawLab\bin\Debug\SimpleDrawLab.pdb
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Solutions\08SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\MainWindow.baml
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Solutions\08SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\MainWindow.g.cs
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Solutions\08SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\App.g.cs
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Solutions\08SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\SimpleDrawLab_MarkupCompile.cache
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Solutions\08SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\SimpleDrawLab.g.resources
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Solutions\08SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\SimpleDrawLab.Properties.Resources.resources
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Solutions\08SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\SimpleDrawLab.csproj.GenerateResource.Cache
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Solutions\08SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\SimpleDrawLab.csprojResolveAssemblyReference.cache
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Solutions\11SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\SimpleDrawLab.exe
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Solutions\11SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\SimpleDrawLab.pdb
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Solutions\11SimpleDrawLab\SimpleDrawLab\bin\Debug\SimpleDrawLab.exe
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Solutions\11SimpleDrawLab\SimpleDrawLab\bin\Debug\SimpleDrawLab.pdb
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Solutions\11SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\SimpleDrawLab.csprojResolveAssemblyReference.cache
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Solutions\11SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\MainWindow.baml
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Solutions\11SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\MainWindow.g.cs
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Solutions\11SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\App.g.cs
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Solutions\11SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\SimpleDrawLab_MarkupCompile.cache
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Solutions\11SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\SimpleDrawLab.g.resources
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Solutions\11SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\SimpleDrawLab.Properties.Resources.resources
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Solutions\11SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\SimpleDrawLab.csproj.GenerateResource.Cache
+D:\PoulEjnar\OneDrive\Courses\I4GUI\Solutions\11SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\SimpleDrawLab.exe
+D:\PoulEjnar\OneDrive\Courses\I4GUI\Solutions\11SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\SimpleDrawLab.pdb
+D:\PoulEjnar\OneDrive\Courses\I4GUI\Solutions\11SimpleDrawLab\SimpleDrawLab\bin\Debug\SimpleDrawLab.exe
+D:\PoulEjnar\OneDrive\Courses\I4GUI\Solutions\11SimpleDrawLab\SimpleDrawLab\bin\Debug\SimpleDrawLab.pdb
+D:\PoulEjnar\OneDrive\Courses\I4GUI\Solutions\11SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\SimpleDrawLab.csprojResolveAssemblyReference.cache
+D:\PoulEjnar\OneDrive\Courses\I4GUI\Solutions\11SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\MainWindow.baml
+D:\PoulEjnar\OneDrive\Courses\I4GUI\Solutions\11SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\MainWindow.g.cs
+D:\PoulEjnar\OneDrive\Courses\I4GUI\Solutions\11SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\App.g.cs
+D:\PoulEjnar\OneDrive\Courses\I4GUI\Solutions\11SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\SimpleDrawLab_MarkupCompile.cache
+D:\PoulEjnar\OneDrive\Courses\I4GUI\Solutions\11SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\SimpleDrawLab.g.resources
+D:\PoulEjnar\OneDrive\Courses\I4GUI\Solutions\11SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\SimpleDrawLab.Properties.Resources.resources
+D:\PoulEjnar\OneDrive\Courses\I4GUI\Solutions\11SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\SimpleDrawLab.csproj.GenerateResource.Cache
+C:\Courses\I4GUI\Lektioner\12 Shapes and Brushes\Lab\12SimpleDrawLab\SimpleDrawLab\bin\Debug\SimpleDrawLab.exe
+C:\Courses\I4GUI\Lektioner\12 Shapes and Brushes\Lab\12SimpleDrawLab\SimpleDrawLab\bin\Debug\SimpleDrawLab.pdb
+C:\Courses\I4GUI\Lektioner\12 Shapes and Brushes\Lab\12SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\SimpleDrawLab.csprojAssemblyReference.cache
+C:\Courses\I4GUI\Lektioner\12 Shapes and Brushes\Lab\12SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\MainWindow.baml
+C:\Courses\I4GUI\Lektioner\12 Shapes and Brushes\Lab\12SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\MainWindow.g.cs
+C:\Courses\I4GUI\Lektioner\12 Shapes and Brushes\Lab\12SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\App.g.cs
+C:\Courses\I4GUI\Lektioner\12 Shapes and Brushes\Lab\12SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\SimpleDrawLab_MarkupCompile.cache
+C:\Courses\I4GUI\Lektioner\12 Shapes and Brushes\Lab\12SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\SimpleDrawLab.g.resources
+C:\Courses\I4GUI\Lektioner\12 Shapes and Brushes\Lab\12SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\SimpleDrawLab.Properties.Resources.resources
+C:\Courses\I4GUI\Lektioner\12 Shapes and Brushes\Lab\12SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\SimpleDrawLab.csproj.GenerateResource.cache
+C:\Courses\I4GUI\Lektioner\12 Shapes and Brushes\Lab\12SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\SimpleDrawLab.csproj.CoreCompileInputs.cache
+C:\Courses\I4GUI\Lektioner\12 Shapes and Brushes\Lab\12SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\SimpleDrawLab.exe
+C:\Courses\I4GUI\Lektioner\12 Shapes and Brushes\Lab\12SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\SimpleDrawLab.pdb
+C:\Courses\I4GUI\Lektioner\11 Shapes and basic drawing in WPF\Lab\12SimpleDrawLab\SimpleDrawLab\bin\Debug\SimpleDrawLab.exe
+C:\Courses\I4GUI\Lektioner\11 Shapes and basic drawing in WPF\Lab\12SimpleDrawLab\SimpleDrawLab\bin\Debug\SimpleDrawLab.pdb
+C:\Courses\I4GUI\Lektioner\11 Shapes and basic drawing in WPF\Lab\12SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\SimpleDrawLab.csproj.AssemblyReference.cache
+C:\Courses\I4GUI\Lektioner\11 Shapes and basic drawing in WPF\Lab\12SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\MainWindow.baml
+C:\Courses\I4GUI\Lektioner\11 Shapes and basic drawing in WPF\Lab\12SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\MainWindow.g.cs
+C:\Courses\I4GUI\Lektioner\11 Shapes and basic drawing in WPF\Lab\12SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\App.g.cs
+C:\Courses\I4GUI\Lektioner\11 Shapes and basic drawing in WPF\Lab\12SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\SimpleDrawLab_MarkupCompile.cache
+C:\Courses\I4GUI\Lektioner\11 Shapes and basic drawing in WPF\Lab\12SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\SimpleDrawLab.g.resources
+C:\Courses\I4GUI\Lektioner\11 Shapes and basic drawing in WPF\Lab\12SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\SimpleDrawLab.Properties.Resources.resources
+C:\Courses\I4GUI\Lektioner\11 Shapes and basic drawing in WPF\Lab\12SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\SimpleDrawLab.csproj.GenerateResource.cache
+C:\Courses\I4GUI\Lektioner\11 Shapes and basic drawing in WPF\Lab\12SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\SimpleDrawLab.csproj.CoreCompileInputs.cache
+C:\Courses\I4GUI\Lektioner\11 Shapes and basic drawing in WPF\Lab\12SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\SimpleDrawLab.exe
+C:\Courses\I4GUI\Lektioner\11 Shapes and basic drawing in WPF\Lab\12SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\SimpleDrawLab.pdb
+C:\Courses\SW4FED\Lektioner\09 Shapes and basic drawing in WPF\Lab\SimpleDrawLab\SimpleDrawLab\bin\Debug\SimpleDrawLab.exe.config
+C:\Courses\SW4FED\Lektioner\09 Shapes and basic drawing in WPF\Lab\SimpleDrawLab\SimpleDrawLab\bin\Debug\SimpleDrawLab.exe
+C:\Courses\SW4FED\Lektioner\09 Shapes and basic drawing in WPF\Lab\SimpleDrawLab\SimpleDrawLab\bin\Debug\SimpleDrawLab.pdb
+C:\Courses\SW4FED\Lektioner\09 Shapes and basic drawing in WPF\Lab\SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\SimpleDrawLab.csproj.AssemblyReference.cache
+C:\Courses\SW4FED\Lektioner\09 Shapes and basic drawing in WPF\Lab\SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\SimpleDrawLab.csproj.SuggestedBindingRedirects.cache
+C:\Courses\SW4FED\Lektioner\09 Shapes and basic drawing in WPF\Lab\SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\MainWindow.baml
+C:\Courses\SW4FED\Lektioner\09 Shapes and basic drawing in WPF\Lab\SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\MainWindow.g.cs
+C:\Courses\SW4FED\Lektioner\09 Shapes and basic drawing in WPF\Lab\SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\App.g.cs
+C:\Courses\SW4FED\Lektioner\09 Shapes and basic drawing in WPF\Lab\SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\SimpleDrawLab_MarkupCompile.cache
+C:\Courses\SW4FED\Lektioner\09 Shapes and basic drawing in WPF\Lab\SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\SimpleDrawLab.g.resources
+C:\Courses\SW4FED\Lektioner\09 Shapes and basic drawing in WPF\Lab\SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\SimpleDrawLab.Properties.Resources.resources
+C:\Courses\SW4FED\Lektioner\09 Shapes and basic drawing in WPF\Lab\SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\SimpleDrawLab.csproj.GenerateResource.cache
+C:\Courses\SW4FED\Lektioner\09 Shapes and basic drawing in WPF\Lab\SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\SimpleDrawLab.csproj.CoreCompileInputs.cache
+C:\Courses\SW4FED\Lektioner\09 Shapes and basic drawing in WPF\Lab\SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\SimpleDrawLab.exe
+C:\Courses\SW4FED\Lektioner\09 Shapes and basic drawing in WPF\Lab\SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\SimpleDrawLab.pdb
+C:\Users\msldk\Desktop\Uni\SoftwareTeknologi\4Semester\FED\FEDExercises\SOL09-SimpleDrawLab\SimpleDrawLab\SimpleDrawLab\bin\Debug\SimpleDrawLab.exe.config
+C:\Users\msldk\Desktop\Uni\SoftwareTeknologi\4Semester\FED\FEDExercises\SOL09-SimpleDrawLab\SimpleDrawLab\SimpleDrawLab\bin\Debug\SimpleDrawLab.exe
+C:\Users\msldk\Desktop\Uni\SoftwareTeknologi\4Semester\FED\FEDExercises\SOL09-SimpleDrawLab\SimpleDrawLab\SimpleDrawLab\bin\Debug\SimpleDrawLab.pdb
+C:\Users\msldk\Desktop\Uni\SoftwareTeknologi\4Semester\FED\FEDExercises\SOL09-SimpleDrawLab\SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\SimpleDrawLab.csproj.AssemblyReference.cache
+C:\Users\msldk\Desktop\Uni\SoftwareTeknologi\4Semester\FED\FEDExercises\SOL09-SimpleDrawLab\SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\SimpleDrawLab.csproj.SuggestedBindingRedirects.cache
+C:\Users\msldk\Desktop\Uni\SoftwareTeknologi\4Semester\FED\FEDExercises\SOL09-SimpleDrawLab\SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\MainWindow.baml
+C:\Users\msldk\Desktop\Uni\SoftwareTeknologi\4Semester\FED\FEDExercises\SOL09-SimpleDrawLab\SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\MainWindow.g.cs
+C:\Users\msldk\Desktop\Uni\SoftwareTeknologi\4Semester\FED\FEDExercises\SOL09-SimpleDrawLab\SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\App.g.cs
+C:\Users\msldk\Desktop\Uni\SoftwareTeknologi\4Semester\FED\FEDExercises\SOL09-SimpleDrawLab\SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\SimpleDrawLab_MarkupCompile.cache
+C:\Users\msldk\Desktop\Uni\SoftwareTeknologi\4Semester\FED\FEDExercises\SOL09-SimpleDrawLab\SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\SimpleDrawLab.g.resources
+C:\Users\msldk\Desktop\Uni\SoftwareTeknologi\4Semester\FED\FEDExercises\SOL09-SimpleDrawLab\SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\SimpleDrawLab.Properties.Resources.resources
+C:\Users\msldk\Desktop\Uni\SoftwareTeknologi\4Semester\FED\FEDExercises\SOL09-SimpleDrawLab\SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\SimpleDrawLab.csproj.GenerateResource.cache
+C:\Users\msldk\Desktop\Uni\SoftwareTeknologi\4Semester\FED\FEDExercises\SOL09-SimpleDrawLab\SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\SimpleDrawLab.csproj.CoreCompileInputs.cache
+C:\Users\msldk\Desktop\Uni\SoftwareTeknologi\4Semester\FED\FEDExercises\SOL09-SimpleDrawLab\SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\SimpleDrawLab.exe
+C:\Users\msldk\Desktop\Uni\SoftwareTeknologi\4Semester\FED\FEDExercises\SOL09-SimpleDrawLab\SimpleDrawLab\SimpleDrawLab\obj\x86\Debug\SimpleDrawLab.pdb

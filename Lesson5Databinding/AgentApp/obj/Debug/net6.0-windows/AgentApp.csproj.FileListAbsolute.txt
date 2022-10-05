@@ -19,3 +19,7 @@ C:\Users\msldk\Desktop\Uni\SoftwareTeknologi\4Semester\FED\FEDExercises\Lesson5D
 C:\Users\msldk\Desktop\Uni\SoftwareTeknologi\4Semester\FED\FEDExercises\Lesson5Databinding\AgentApp\obj\Debug\net6.0-windows\AgentApp.pdb
 C:\Users\msldk\Desktop\Uni\SoftwareTeknologi\4Semester\FED\FEDExercises\Lesson5Databinding\AgentApp\obj\Debug\net6.0-windows\AgentApp.genruntimeconfig.cache
 C:\Users\msldk\Desktop\Uni\SoftwareTeknologi\4Semester\FED\FEDExercises\Lesson5Databinding\AgentApp\obj\Debug\net6.0-windows\ref\AgentApp.dll
+C:\Users\msldk\Desktop\Uni\SoftwareTeknologi\4Semester\FED\FEDExercises\Lesson5Databinding\AgentApp\bin\Debug\net6.0-windows\Microsoft.Xaml.Behaviors.dll
+C:\Users\msldk\Desktop\Uni\SoftwareTeknologi\4Semester\FED\FEDExercises\Lesson5Databinding\AgentApp\bin\Debug\net6.0-windows\Prism.dll
+C:\Users\msldk\Desktop\Uni\SoftwareTeknologi\4Semester\FED\FEDExercises\Lesson5Databinding\AgentApp\bin\Debug\net6.0-windows\Prism.Wpf.dll
+C:\Users\msldk\Desktop\Uni\SoftwareTeknologi\4Semester\FED\FEDExercises\Lesson5Databinding\AgentApp\obj\Debug\net6.0-windows\AgentApp.csproj.CopyComplete

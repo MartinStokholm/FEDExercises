@@ -5,7 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:AgentApp"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="AgentAssigment" Height="450" Width="800">
+    <Window.DataContext>
+        <local:MainWindowViewModel/>
+    </Window.DataContext>
     <Grid>
         
         <Grid.ColumnDefinitions>
@@ -20,6 +23,8 @@
         
         <Grid.RowDefinitions>
             <RowDefinition Height="20"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
             <RowDefinition Height="auto"/>
             <RowDefinition Height="auto"/>
             <RowDefinition Height="auto"/>
@@ -63,63 +68,73 @@
                Content="Asssigment"
                Margin="5"/>
 
+        <!-- Input boxes -->
         <TextBox Name ="input_Id" 
                  Grid.Column="2"
                  Grid.Row="1"
                  Height="50" 
                  Width="200"
-                 Margin="5"/>
+                 Margin="5"
+                 Text="{Binding Path=ID}"/>
         
         <TextBox Name ="input_codeName" 
                  Grid.Column="2"
                  Grid.Row="2"
                  Height="50" 
                  Width="200"
-                 Margin="5"/>
+                 Margin="5"
+                 Text="{Binding Path=CodeName}"/>
         
         <TextBox Name ="input_Speciality" 
                  Grid.Column="2"
                  Grid.Row="3"
                  Height="50" 
                  Width="200"
-                 Margin="5"/>
+                 Margin="5"
+                 Text="{Binding Path=Speciality}"/>
 
         <TextBox Name ="input_Assigment" 
                  Grid.Column="2"
                  Grid.Row="4"
                  Height="50" 
                  Width="200"
-                 Margin="5"/>
+                 Margin="5"
+                 Text="{Binding Path=Assignment}"/>
 
-        <!--OUTPUT text blocks-->
-        <TextBlock Name="txb_id"
-                   Grid.Column="3"
-                   Grid.Row="1"
-                   Height="50" 
-                   Width="200"
-                   Margin="5"
-                   Text="{Binding ElementName=input_Id}"/>
+        <ListBox Name="listBoxAgents"
+                 Grid.Column="3"
+                 Grid.ColumnSpan="2"
+                 Grid.Row="1"
+                 Grid.RowSpan="4"
+                 Height="250"
+                 Width="350"
+                 Margin="5"
+                 ItemsSource="{Binding}"
+                 IsSynchronizedWithCurrentItem="True"
+                 DisplayMemberPath="CodeName"/> <!--Shows actual value of CodeName-->
 
-        <TextBlock Name="txb_codeName"
-                   Grid.Column="3"
-                   Grid.Row="2"
-                   Height="50" 
-                   Width="200"
-                   Margin="5"/>
-
-        <TextBlock Name="txb_speciality"
-                   Grid.Column="3"
-                   Grid.Row="3"
-                   Height="50" 
-                   Width="200"
-                   Margin="5"/>
-
-        <TextBlock Name="txb_assigment"
-                   Grid.Column="3"
-                   Grid.Row="4"
-                   Height="50" 
-                   Width="200"
-                   Margin="5"/>
-
+        <Button Name="btn_previous"
+                Grid.Column="1"
+                Grid.Row="5"
+                FontSize="20"
+                Height="30"
+                Margin="5"
+                Content="Previous"/>
+        
+        <Button Name="btn_next"
+                Grid.Column="2"
+                Grid.Row="5"
+                FontSize="20"
+                Height="30"
+                Margin="5"
+                Content="Next"/>
+        
+        <Button Name="btn_add"
+                Grid.Column="1"
+                Grid.Row="6"
+                FontSize="20"
+                Height="30"
+                Margin="5"
+                Content="Add New"/>
     </Grid>
 </Window>
