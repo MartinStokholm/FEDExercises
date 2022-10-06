@@ -8,10 +8,11 @@
         xmlns:local="clr-namespace:DebtCollector"
         mc:Ignorable="d"
         prism:ViewModelLocator.AutoWireViewModel="True"
-        Title="{Binding Title}" Height="auto" Width="275"
+        Title="{Binding Title}" Height="auto" Width="450"
         WindowStartupLocation="CenterScreen"
         SizeToContent="Height"
         Activated="Window_Activated"
+        ResizeMode="NoResize"
         Background="{DynamicResource ResourceKey=BackgroundBrush}"
 >
     <DockPanel Name="dockPanelMain">

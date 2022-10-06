@@ -4,15 +4,31 @@
              xmlns:local="clr-namespace:DebtCollector"
              StartupUri="/Views/MainWindow.xaml">
     <Application.Resources>
-        <SolidColorBrush x:Key="BackgroundBrush" Color="LimeGreen"/>
+        <SolidColorBrush x:Key="BackgroundBrush" Color="MediumSpringGreen" Opacity="50"/>
         <Style x:Key="CustomTextBoxStyle" TargetType="{x:Type TextBox}">
            
         </Style>
+        <!--Textbox style-->
+        <Style TargetType="{x:Type TextBox}">
+            <Setter Property="Foreground" Value="Black" />
+            <Setter Property="Background" Value="White" />
+            <Setter Property="FontSize" Value="24"/>
+        </Style>
+
+        <!--DataGrid style-->
+        <Style TargetType="{x:Type DataGrid}">
+            <Setter Property="Foreground" Value="Black" />
+            <Setter Property="Background" Value="White" />
+            <Setter Property="FontSize" Value="24"/>
+        </Style>
+        
         <!--Label style-->
         <Style TargetType="{x:Type Label}">
             <Setter Property="FontWeight" Value="Bold" />
             <Setter Property="Foreground" Value="Black" />
+            <Setter Property="FontSize" Value="24"/>
         </Style>
+        
         <!--BottonToolbarStyle-->
         <Style x:Key="CustomButtonStyle" TargetType="{x:Type Button}" >
             <Setter Property="Background" Value="LightGray"/>
@@ -20,6 +36,8 @@
             <Setter Property="BorderBrush" Value="Black"/>
             <Setter Property="BorderThickness" Value="2"/>
             <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="FontSize" Value="24"/>
+            <Setter Property="Padding" Value="5"/>
 
             <Style.Triggers>
                 <Trigger Property="Button.IsMouseOver" Value="True">

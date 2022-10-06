@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DebtCollector.Views"
         mc:Ignorable="d"
-        Title="{Binding Path=Title}" Height="300" Width="300"
+        Title="{Binding Path=Title}" Height="500" Width="450"
         WindowStartupLocation="CenterScreen"
         ResizeMode="NoResize"
         FocusManager.FocusedElement="{Binding ElementName=TbxValue}"
@@ -18,7 +18,7 @@
                 x:Name="TbxValue"
                 Text="{Binding Path=CurrentTransaction.Amount}"            
                 Margin="5" 
-                Width="75"
+                Width="175"
                 />
             <Button 
                 x:Name="button_add_value" 
@@ -31,9 +31,9 @@
             />
             <Button   
                 IsCancel="True"  
-                Width="75"  
+                Width="100"  
                 Name="btnCancel" 
-                Content="Close"
+                Content="Cancel"
                 Margin="5"  
                 Style="{StaticResource ResourceKey=CustomButtonStyle}"
             />

@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DebtCollector.Views"
         mc:Ignorable="d"
-        Height="200" Width="150"
+        Height="400" Width="450"
         ResizeMode="NoResize"
         WindowStartupLocation="CenterScreen"
         FocusManager.FocusedElement="{Binding ElementName=txt_Name}"
@@ -17,8 +17,10 @@
         <StackPanel>
             <Label Content="Name"/>
             <TextBox 
+                HorizontalAlignment="Left"
                 Name="txt_Name"
-                Width="100"
+                Width="175"
+                Height="35"
                 Margin="5"
                 Text="{Binding Path=CurrentDebtor.Name}"    
             />
@@ -27,8 +29,10 @@
         <StackPanel>
             <Label Content="Initial Amount"/>
             <TextBox 
+                HorizontalAlignment="Left"
                 Name="txt_InitialAmount"
-                Width="100"
+                Width="175"
+                Height="35"
                 Margin="5"
                 Text="{Binding Path=CurrentTransaction.Amount}"   
             />
@@ -47,6 +51,7 @@
                 Margin="5"
                 Name="btn_cancel"
                 Content="Cancel"
+                IsCancel="True"
                 Command="{Binding Path=CancelBtnCommand}"
                 Click="btn_cancel_Click"
                 Style="{StaticResource ResourceKey=CustomButtonStyle}"
