@@ -4,8 +4,21 @@
              xmlns:local="clr-namespace:DebtCollector"
              StartupUri="/Views/MainWindow.xaml">
     <Application.Resources>
-        <Style TargetType="Button" x:Key="appButtonStyle">
-            <Setter Property="Background" Value="DarkSlateGray"/>
+        <SolidColorBrush x:Key="BackgroundBrush" Color="Bisque"/>
+        <Style x:Key="TextBoxStyle" TargetType="{x:Type TextBox}">
+           
+        </Style>
+        <!--BottonToolbarStyle-->
+        <Style x:Key="BottonToolbarStyle" TargetType="{x:Type Button}" >
+            <Style.Triggers>
+                <Trigger Property="Button.IsMouseOver" Value="True">
+                    <Setter Property="Effect" >
+                        <Setter.Value>
+                            <DropShadowEffect ShadowDepth="2" />
+                        </Setter.Value>
+                    </Setter>
+                </Trigger>
+            </Style.Triggers>
         </Style>
     </Application.Resources>
 </Application>

@@ -28,3 +28,4 @@ C:\Users\msldk\Desktop\Uni\SoftwareTeknologi\4Semester\FED\FEDExercises\DebtColl
 C:\Users\msldk\Desktop\Uni\SoftwareTeknologi\4Semester\FED\FEDExercises\DebtCollectorApp\DebtCollector\obj\Debug\Views\AddDebtorView.baml
 C:\Users\msldk\Desktop\Uni\SoftwareTeknologi\4Semester\FED\FEDExercises\DebtCollectorApp\DebtCollector\obj\Debug\Views\LogTransactionView.g.cs
 C:\Users\msldk\Desktop\Uni\SoftwareTeknologi\4Semester\FED\FEDExercises\DebtCollectorApp\DebtCollector\obj\Debug\Views\LogTransactionView.baml
+C:\Users\msldk\Desktop\Uni\SoftwareTeknologi\4Semester\FED\FEDExercises\DebtCollectorApp\DebtCollector\obj\Debug\App.baml
