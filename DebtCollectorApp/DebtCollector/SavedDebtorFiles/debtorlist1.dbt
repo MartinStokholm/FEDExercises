@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfDebtor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Debtor>
+    <Name>Bob</Name>
+    <Saldo>100</Saldo>
+    <Transactions>
+      <Transaction>
+        <Amount>100</Amount>
+        <Date>06/10/2022 11.26</Date>
+      </Transaction>
+    </Transactions>
+  </Debtor>
+  <Debtor>
+    <Name>Boeg</Name>
+    <Saldo>250</Saldo>
+    <Transactions>
+      <Transaction>
+        <Amount>-50</Amount>
+        <Date>06/10/2022 11.26</Date>
+      </Transaction>
+      <Transaction>
+        <Amount>100</Amount>
+        <Date>06/10/2022 11.26</Date>
+      </Transaction>
+      <Transaction>
+        <Amount>100</Amount>
+        <Date>06/10/2022 11.26</Date>
+      </Transaction>
+      <Transaction>
+        <Amount>100</Amount>
+        <Date>06/10/2022 11.26</Date>
+      </Transaction>
+    </Transactions>
+  </Debtor>
+  <Debtor>
+    <Name>Bobby</Name>
+    <Saldo>0</Saldo>
+    <Transactions>
+      <Transaction>
+        <Amount>0</Amount>
+        <Date>06/10/2022 11.26</Date>
+      </Transaction>
+    </Transactions>
+  </Debtor>
+  <Debtor>
+    <Name>Boobbb</Name>
+    <Saldo>0</Saldo>
+    <Transactions>
+      <Transaction>
+        <Amount>1010</Amount>
+        <Date>06/10/2022 11.27</Date>
+      </Transaction>
+      <Transaction>
+        <Amount>-1010</Amount>
+        <Date>06/10/2022 11.27</Date>
+      </Transaction>
+    </Transactions>
+  </Debtor>
+</ArrayOfDebtor>

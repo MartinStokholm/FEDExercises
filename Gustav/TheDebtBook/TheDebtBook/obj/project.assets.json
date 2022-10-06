@@ -138,19 +138,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\gsgli\\.nuget\\packages\\": {}
+    "C:\\Users\\msldk\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gsgli\\Documents\\AU Engineering\\02 - Softwareteknologi\\SW4\\FED\\Aflevering 1\\TheDebtBook\\TheDebtBook\\TheDebtBook.csproj",
+      "projectUniqueName": "C:\\Users\\msldk\\Desktop\\Uni\\SoftwareTeknologi\\4Semester\\FED\\FEDExercises\\Gustav\\TheDebtBook\\TheDebtBook\\TheDebtBook.csproj",
       "projectName": "TheDebtBook",
-      "projectPath": "C:\\Users\\gsgli\\Documents\\AU Engineering\\02 - Softwareteknologi\\SW4\\FED\\Aflevering 1\\TheDebtBook\\TheDebtBook\\TheDebtBook.csproj",
-      "packagesPath": "C:\\Users\\gsgli\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gsgli\\Documents\\AU Engineering\\02 - Softwareteknologi\\SW4\\FED\\Aflevering 1\\TheDebtBook\\TheDebtBook\\obj\\",
+      "projectPath": "C:\\Users\\msldk\\Desktop\\Uni\\SoftwareTeknologi\\4Semester\\FED\\FEDExercises\\Gustav\\TheDebtBook\\TheDebtBook\\TheDebtBook.csproj",
+      "packagesPath": "C:\\Users\\msldk\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\msldk\\Desktop\\Uni\\SoftwareTeknologi\\4Semester\\FED\\FEDExercises\\Gustav\\TheDebtBook\\TheDebtBook\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\gsgli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\msldk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -158,6 +163,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -200,7 +206,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

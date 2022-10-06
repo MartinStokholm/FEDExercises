@@ -24,6 +24,10 @@ namespace DebtCollector.Views
         {
             InitializeComponent();
         }
-   
+
+        private void Window_Activated(object sender, EventArgs e)
+        {
+            DataGrid1.Items.Refresh();
+        }
     }
 }

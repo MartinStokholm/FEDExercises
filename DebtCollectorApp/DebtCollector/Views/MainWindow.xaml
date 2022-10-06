@@ -7,82 +7,79 @@
         xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
         xmlns:local="clr-namespace:DebtCollector"
         mc:Ignorable="d"
-        Title="{Binding Title}" Height="450" Width="800"
         prism:ViewModelLocator.AutoWireViewModel="True"
-        Background="{DynamicResource ResourceKey=BackgroundBrush}">
-    <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="20"/>
-            <ColumnDefinition Width="auto"/>
-            <ColumnDefinition Width="auto"/>
-            <ColumnDefinition Width="*"/>
-            <ColumnDefinition Width="20"/>
-        </Grid.ColumnDefinitions>
+        Title="{Binding Title}" Height="450" Width="500"
+        WindowStartupLocation="CenterOwner"
+        Background="{DynamicResource ResourceKey=BackgroundBrush}"
+        Activated="Window_Activated"
+        >
     
-        <Grid.RowDefinitions>
-            <RowDefinition Height="20"/>
-            <RowDefinition Height="auto"/>
-            <RowDefinition Height="auto"/>
-            <RowDefinition Height="auto"/>
-            <RowDefinition Height="auto"/>
-            <RowDefinition Height="20"/>
-        </Grid.RowDefinitions>
-        
-        <Menu Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="5" Name="mainMenu">
-            <MenuItem Header="_File" >
+    <DockPanel Name="dockPanelMain">
+        <Menu DockPanel.Dock="Top" Name="mainMenu">
+            <MenuItem Header="_File">
                 <MenuItem Header="_New" Command="{Binding NewFileCommand}"/>
-                <MenuItem Header="_Open" Command="{Binding OpenFileCommand}" />
-                <MenuItem Header="_Save" Command="{Binding SaveCommand}" />
+                <MenuItem Header="_Open" Command="{Binding OpenFileCommand}"/>
+                <MenuItem Header="_Save" Command="{Binding SaveCommand}"/>
                 <MenuItem Header="Save _As" Command="{Binding SaveAsCommand}" />
-                <MenuItem Header="E_xit" Command="{Binding CloseAppCommand}"/>
-            </MenuItem>
-            <MenuItem Header="_Debtors">
-                <MenuItem Header="_Previous" Command="{Binding PreviusCommand}"/>
-                <MenuItem Header="_Next" Command="{Binding NextCommand}"/>
-                <MenuItem Header="_Add new" Command="{Binding AddCommand}"/>
-                <MenuItem Header="_Edit" Command="{Binding EditCommand}"/>
-                <MenuItem Header="_Delete" Command="{Binding DeleteCommand}"/>
-            </MenuItem>
-            <MenuItem Header="_Color">
-                <MenuItem Header="_Default" Command="{Binding ColorCommand}" CommandParameter="Default" />
-                <MenuItem Header="_Bisque" Command="{Binding ColorCommand}" CommandParameter="Bisque" />
-                <MenuItem Header="Light_Green" Command="{Binding ColorCommand}" CommandParameter="LightGreen"/>
-                <MenuItem Header="_LightBlue" Command="{Binding ColorCommand}" CommandParameter="LightBlue"/>
-                <MenuItem Header="Ghost_White" Command="{Binding ColorCommand}" CommandParameter="GhostWhite"/>
             </MenuItem>
         </Menu>
 
-        <Label Name="lbl_debtors" Grid.Column="1" Grid.Row="1" Content="The Debt Book" Margin="5"/>
-        <Button 
-            Name="btn_addDebtor" 
-            Grid.Column="2" 
-            Grid.Row="2" 
-            Content="Add Debtor" 
-            Margin="5" 
-            Width="100" 
-            Height="25" 
-            Command="{Binding AddCommand}"
-        />
+        <Border BorderBrush="Black" BorderThickness="2">
+            <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0,0,0,0">
 
-        <DataGrid 
-            ItemsSource="{Binding Path=Debtors}" 
-            SelectedItem="{Binding Path=CurrentDebtor}"
-            IsSynchronizedWithCurrentItem="True"
-            Grid.Column="1" 
-            Grid.Row="2"
-            Margin="9,9,9,9"  
-            CanUserAddRows="False" 
-            CanUserDeleteRows="False" 
-            IsReadOnly="True"
-            MinRowHeight="12">
-            
-            <i:Interaction.Triggers>
-                <i:EventTrigger EventName="MouseDoubleClick">
-                    <prism:InvokeCommandAction Command="{Binding EditCommand}"/>
-                </i:EventTrigger>
-            </i:Interaction.Triggers>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="100"/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="150"/>
+                </Grid.ColumnDefinitions>
 
-        </DataGrid>
-    </Grid>
+                <Button 
+                    Content="Add debtor" 
+                    HorizontalAlignment="Center" 
+                    VerticalAlignment="Top" FontSize="24" Grid.Row="1" Grid.Column="1"
+                    Command="{Binding AddCommand}" Margin="0,40,0,0"
+                />
+
+
+                <Label 
+                    Content="Debtors" 
+                    HorizontalAlignment="Left" 
+                    Margin="25,20,0,0" 
+                    VerticalAlignment="Top" FontSize="36" FontWeight="Bold"
+               />
+
+                <DataGrid      
+                    ItemsSource="{Binding Path=Debtors}"
+                    SelectedItem="{Binding Path=CurrentDebtor}"
+                    SelectedIndex="{Binding Path=CurrentIndex}"
+                    IsSynchronizedWithCurrentItem="True" 
+                    AutoGenerateColumns="False"
+                    Name="DataGrid1"
+                    Margin="20,5,10,5"
+                    Grid.Column="0"
+                    Grid.Row="1"
+                    CanUserAddRows="False" 
+                    CanUserDeleteRows="False" 
+                    IsReadOnly="True"
+                    MinRowHeight="12"  
+                >
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="Name" Width="2*" Binding="{Binding Path=Name}" />
+                        <DataGridTextColumn Header="Balance" Width="1*" Binding="{Binding Path=Saldo}"/>
+                    </DataGrid.Columns>
+                    <i:Interaction.Triggers>
+                        <i:EventTrigger EventName="MouseDoubleClick">
+                            <prism:InvokeCommandAction Command="{Binding CheckSaldoCommand}"/>
+                        </i:EventTrigger>
+                    </i:Interaction.Triggers>
+                </DataGrid>
+                <Line Stroke= "Black" X1="0" Y1="95" X2="2000" Y2="95" />
+            </Grid>
+        </Border>
+    </DockPanel>
 </Window>
 

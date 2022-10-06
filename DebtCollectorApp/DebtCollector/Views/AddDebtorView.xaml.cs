@@ -24,5 +24,23 @@ namespace DebtCollector.Views
         {
             InitializeComponent();
         }
+
+        private void btn_save_Click(object sender, RoutedEventArgs e)
+        {
+            var vm = DataContext as AddDebtorViewModel;
+            if (vm.IsValid)
+            {
+                vm.CurrentDebtor.Transactions.Add(vm.CurrentTransaction);
+                DialogResult = true;
+            }
+            else
+                MessageBox.Show("Enter values for Name and Initial Value", "Missing data");
+
+        }
+
+        private void btn_cancel_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

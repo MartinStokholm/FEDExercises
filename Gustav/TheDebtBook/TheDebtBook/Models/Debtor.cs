@@ -22,7 +22,6 @@ namespace TheDebtBook.Models
             var FirstTrans = new Transaction(atransaction);
             transactions.Add(FirstTrans);
             CalcBalance();
-
         }
 
         public Debtor Clone()

@@ -27,44 +27,47 @@
             Grid.Column="1" 
             FontSize="24" 
             Margin="0,20,0,0" 
-            Width="150"/>
+            Width="150"
+        />
 
-        <Button x:Name="button_add_value" 
-                Grid.Column="1" 
-                Content="Add Value" 
-                HorizontalAlignment="Center" 
-                Margin="0,71,0,0" 
-                VerticalAlignment="Top" 
-                RenderTransformOrigin="0.549,0.541" 
-                Height="36" Width="148" 
-                FontSize="24" 
-                FontWeight="Bold" 
-                Command="{Binding Path=Add_Value_btnCommand}"
-                Click="button_add_value_Click" IsDefault="True">
+        <Button 
+            x:Name="button_add_value" 
+            Grid.Column="1" 
+            Content="Add Value" 
+            HorizontalAlignment="Center" 
+            Margin="0,71,0,0" 
+            VerticalAlignment="Top" 
+            RenderTransformOrigin="0.549,0.541" 
+            Height="36" Width="148" 
+            FontSize="24" 
+            FontWeight="Bold" 
+            Command="{Binding Path=Add_Value_btnCommand}"
+            Click="button_add_value_Click" IsDefault="True">
 
         </Button>
 
         <DataGrid      
-                ItemsSource="{Binding Path=CurrentDebtor.Transactions}"
-                SelectedItem="{Binding Path=CurrentTransaction}"
-                Name="DataTrans"
-                Grid.Column="0"
-                Grid.Row="0"
-                CanUserAddRows="False" 
-                CanUserDeleteRows="False" 
-                IsReadOnly="True"
-                MinRowHeight="12"
-                Margin="9"
-                />
+            ItemsSource="{Binding Path=CurrentDebtor.Transactions}"
+            SelectedItem="{Binding Path=CurrentTransaction}"
+            Name="DataTrans"
+            Grid.Column="0"
+            Grid.Row="0"
+            CanUserAddRows="False" 
+            CanUserDeleteRows="False" 
+            IsReadOnly="True"
+            MinRowHeight="12"
+            Margin="9"
+        />
 
-        <Button Grid.Column="0"
-                    Grid.Row="1"
-                    IsCancel="True" 
-                    TabIndex="6"
-                    MinWidth="35" 
-                    Name="btnCancel" 
-                    Content="Close"
-                    Margin="5" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24"
-                    />
+        <Button 
+            Grid.Column="0"
+            Grid.Row="1"
+            IsCancel="True" 
+            TabIndex="6"
+            MinWidth="35" 
+            Name="btnCancel" 
+            Content="Close"
+            Margin="5" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24"
+        />
     </Grid>
 </Window>

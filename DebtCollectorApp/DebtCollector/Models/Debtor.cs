@@ -1,5 +1,5 @@
 ﻿using Prism.Mvvm;
-using System.Collections.ObjectModel;
+using System.Collections.Generic;
 
 namespace DebtCollector.Models
 {
@@ -7,36 +7,54 @@ namespace DebtCollector.Models
     public class Debtor : BindableBase
     {
         string _name;
-        string _saldo;
-        ObservableCollection<Transaction> _history;
+        double _saldo;
+        List<Transaction> _transactions;
 
-        public Debtor() {}
-        public Debtor(string name, string saldo)
+        public Debtor() 
         {
-            _name = name;
-            _saldo = saldo;
+            _transactions = new List<Transaction>();
         }
+        
+        public Debtor(string name, double initialAmount)
+        {
+            Name = name;
+            Transactions = new List<Transaction>();
+            var FirstTransaction = new Transaction(initialAmount);
+            Transactions.Add(FirstTransaction);
+            CalculateSaldo();
+        }
+        
         public Debtor Clone()
         {
             return this.MemberwiseClone() as Debtor;
         }
-
-        public ObservableCollection<Transaction> History 
+        
+        public void CalculateSaldo()
         {
-            get { return _history; }
-            set { SetProperty(ref _history, value); }
+            double saldo = 0;
+            foreach (Transaction item in Transactions)
+            {
+                saldo += item.Amount;
+            }
+            _saldo = saldo;
         }
-
+        
         public string Name 
         {
             get { return _name; }
             set { SetProperty(ref _name, value); }
         }
-     
-        public string Saldo 
+
+        public double Saldo
         {
             get { return _saldo; }
             set { SetProperty(ref _saldo, value); }
         }    
+        
+        public List<Transaction> Transactions 
+        {
+            get { return _transactions; }
+            set { SetProperty(ref _transactions, value); }
+        }
     }
 }

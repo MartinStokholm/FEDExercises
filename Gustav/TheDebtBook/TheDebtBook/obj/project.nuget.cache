@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "fwW5tkca+MnpSjO0+8UNqDRI4zXIQvboANIxUNx9Y+J+l2zcJ8gGirc5e5En5j/xC+Sh9IHrs24kh4pCwV0OtA==",
+  "dgSpecHash": "as15yKexcT0LdnGf3T52M4OxsTwZ+/rDxe9Y5WXR1K7oxxEfndSwQInoC7C6uoMWhUYZV7JGBAeqG470vuvG+g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\gsgli\\Documents\\AU Engineering\\02 - Softwareteknologi\\SW4\\FED\\Aflevering 1\\TheDebtBook\\TheDebtBook\\TheDebtBook.csproj",
+  "projectFilePath": "C:\\Users\\msldk\\Desktop\\Uni\\SoftwareTeknologi\\4Semester\\FED\\FEDExercises\\Gustav\\TheDebtBook\\TheDebtBook\\TheDebtBook.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\gsgli\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.31\\microsoft.xaml.behaviors.wpf.1.1.31.nupkg.sha512",
-    "C:\\Users\\gsgli\\.nuget\\packages\\prism.core\\8.1.97\\prism.core.8.1.97.nupkg.sha512",
-    "C:\\Users\\gsgli\\.nuget\\packages\\prism.wpf\\8.1.97\\prism.wpf.8.1.97.nupkg.sha512"
+    "C:\\Users\\msldk\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.31\\microsoft.xaml.behaviors.wpf.1.1.31.nupkg.sha512",
+    "C:\\Users\\msldk\\.nuget\\packages\\prism.core\\8.1.97\\prism.core.8.1.97.nupkg.sha512",
+    "C:\\Users\\msldk\\.nuget\\packages\\prism.wpf\\8.1.97\\prism.wpf.8.1.97.nupkg.sha512"
   ],
   "logs": []
 }

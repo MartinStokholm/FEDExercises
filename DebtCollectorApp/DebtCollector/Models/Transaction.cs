@@ -1,17 +1,22 @@
-﻿using Prism.Mvvm;
+﻿using System;
+using Prism.Mvvm;
 
 namespace DebtCollector.Models
 {
     public class Transaction : BindableBase
     {
         string _date;
-        string _amount;
+        double _amount;
         
-        public Transaction() { }
-        public Transaction(string date, string amount)
+        public Transaction() 
         {
-            _date = date;
-            _amount = amount;
+            Date = DateTime.Now.ToString("g"); 
+        }
+        
+        public Transaction(double amount)
+        {
+            Date = DateTime.Now.ToString("g");
+            Amount = amount;
         }
 
         public string Date
@@ -20,7 +25,7 @@ namespace DebtCollector.Models
             set { SetProperty(ref _date, value); }
         }
 
-        public string Amount
+        public double Amount
         {
             get { return _amount; }
             set { SetProperty(ref _amount, value); }

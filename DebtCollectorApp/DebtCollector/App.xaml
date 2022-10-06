@@ -4,8 +4,8 @@
              xmlns:local="clr-namespace:DebtCollector"
              StartupUri="/Views/MainWindow.xaml">
     <Application.Resources>
-        <SolidColorBrush x:Key="BackgroundBrush" Color="Bisque"/>
-        <SolidColorBrush x:Key="ForegroundBrush" Color="Blue"/>
+        <SolidColorBrush x:Key="BackgroundBrush" Color="WhiteSmoke"/>
+        <SolidColorBrush x:Key="ForegroundBrush" Color="Black"/>
         <!--Label style-->
         <Style TargetType="{x:Type Label}">
             <Setter Property="FontWeight" Value="Bold" />

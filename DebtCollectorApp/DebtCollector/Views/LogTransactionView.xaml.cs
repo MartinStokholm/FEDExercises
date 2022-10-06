@@ -1,16 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using DebtCollector.Models;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
+using DebtCollector.ViewModels;
+
 
 namespace DebtCollector.Views
 {
@@ -24,9 +15,13 @@ namespace DebtCollector.Views
             InitializeComponent();
         }
 
-        private void btn_save_Click(object sender, RoutedEventArgs e)
+        private void button_add_value_Click(object sender, RoutedEventArgs e)
         {
-
+            var vm = DataContext as LogTransactionViewModel;
+            Transaction transaction = new Transaction();
+            transaction.Amount = vm.CurrentTransaction.Amount;
+            vm.CurrentDebtor.Transactions.Add(transaction);
+            DataTrans.Items.Refresh();
         }
     }
 }

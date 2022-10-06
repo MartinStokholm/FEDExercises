@@ -5,9 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DebtCollector.Views"
         mc:Ignorable="d"
-        Height="150" Width="250"
+        Height="250" Width="300"
         WindowStartupLocation="CenterOwner"
-        FocusManager.FocusedElement="{Binding ElementName=tbxId}"
+        FocusManager.FocusedElement="{Binding ElementName=txt_Name}"
         ShowInTaskbar="False"
         Title="{Binding Path=Title}">
     
@@ -30,43 +30,57 @@
             <RowDefinition Height="20"/>
         </Grid.RowDefinitions>
 
-        <Label Content="Name"
-               Grid.Row="2"
-               Grid.Column="1"/>
+        <Label 
+            Content="Name"
+            Grid.Row="2"
+            Grid.Column="1"
+        />
 
-        <TextBox Name="txt_Name"
-                 Grid.Row="2"
-                 Grid.Column="2"
-                 Width="100"
-                 Margin="5"
-                 Text="{Binding Path=Name, Mode=TwoWay}"
-                 Style="{StaticResource TextBoxStyle}"/>
+        <TextBox 
+            Name="txt_Name"
+            Grid.Row="2"
+            Grid.Column="2"
+            Width="100"
+            Margin="5"
+            Text="{Binding Path=CurrentDebtor.Name}"
+            Style="{StaticResource TextBoxStyle}"
+        />
+
+        <TextBox 
+            Name="txt_InitialAmount"
+            Grid.Row="3"
+            Grid.Column="2"
+            Width="100"
+            Margin="5"
+            Text="{Binding Path=CurrentTransaction.Amount}"
+            Style="{StaticResource TextBoxStyle}"
+        />
         
-        <Label Content="Initial Amount"
-               Grid.Row="3"
-               Grid.Column="1"/>
+        <Label 
+            Content="Initial Amount"
+            Grid.Row="3"
+            Grid.Column="1"
+        />
 
-        <TextBox Name="txt_InitialAmount"
-                 Grid.Row="3"
-                 Grid.Column="2"
-                 Width="100"
-                 Margin="5"
-                 Text="{Binding Path=Saldo, Mode=TwoWay}"
-                 Style="{StaticResource TextBoxStyle}"/>
+        <Button 
+            Grid.Row="6" 
+            Grid.Column="1"
+            Margin="5"
+            Name="btn_save"
+            Content="_Save"
+            Command="{Binding Path=SaveBtnCommand}"
+            Click="btn_save_Click"
+        />
 
-        <Button Grid.Row="6" 
-                Grid.Column="1"
-                Margin="5"
-                Name="btn_save"
-                Content="Save">
-        </Button>
-        
-        <Button Grid.Row="6" 
-                Grid.Column="2"
-                Margin="5"
-                Name="btn_cancel"
-                Content="Cancel">
-        </Button>
+        <Button 
+            Grid.Row="6" 
+            Grid.Column="2"
+            Margin="5"
+            Name="btn_cancel"
+            Content="Cancel"
+            Command="{Binding Path=CancelBtnCommand}"
+            Click="btn_cancel_Click"
+        />
     </Grid>
 </Window>
 

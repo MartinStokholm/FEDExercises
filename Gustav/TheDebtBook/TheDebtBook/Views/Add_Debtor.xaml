@@ -21,7 +21,8 @@
             <ColumnDefinition Width="1*" />
             <ColumnDefinition Width="2*" />
         </Grid.ColumnDefinitions>
-        <Label VerticalAlignment="Center" HorizontalAlignment="Center" >Name</Label>
+        <Label VerticalAlignment="Center" 
+               HorizontalAlignment="Center" >Name</Label>
         <Label Grid.Row="1"
                Margin="5,0"  >Initial Value</Label>
         <TextBox Grid.Column="1"                  
