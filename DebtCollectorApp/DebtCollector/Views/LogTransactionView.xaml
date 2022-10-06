@@ -33,7 +33,7 @@
                 IsCancel="True"  
                 Width="100"  
                 Name="btnCancel" 
-                Content="Cancel"
+                Content="Close"
                 Margin="5"  
                 Style="{StaticResource ResourceKey=CustomButtonStyle}"
             />

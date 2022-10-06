@@ -50,7 +50,7 @@
             <Button 
                 Margin="5"
                 Name="btn_cancel"
-                Content="Cancel"
+                Content="Close"
                 IsCancel="True"
                 Command="{Binding Path=CancelBtnCommand}"
                 Click="btn_cancel_Click"
