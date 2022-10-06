@@ -8,13 +8,11 @@
         xmlns:local="clr-namespace:DebtCollector"
         mc:Ignorable="d"
         prism:ViewModelLocator.AutoWireViewModel="True"
-        Title="{Binding Title}" Height="auto" Width="auto"
-        WindowStartupLocation="CenterOwner"
-        SizeToContent="Width"
-       
+        Title="{Binding Title}" Height="auto" Width="275"
+        WindowStartupLocation="CenterScreen"
+        SizeToContent="Height"
         Activated="Window_Activated"
-        >
-    
+>
     <DockPanel Name="dockPanelMain">
         <Menu DockPanel.Dock="Top" Name="mainMenu">
             <MenuItem Header="_File">
@@ -24,76 +22,50 @@
                 <MenuItem Header="Save _As" Command="{Binding SaveAsCommand}" />
             </MenuItem>
         </Menu>
-
-        <Grid>
-            <Grid.RowDefinitions>
-                <RowDefinition Height="20"/>
-                <RowDefinition Height="50"/>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="20"/>
-            </Grid.RowDefinitions>
-                
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="20"/>
-                <ColumnDefinition Width="auto"/>
-                <ColumnDefinition Width="auto"/>
-                <ColumnDefinition Width="20"/>
-            </Grid.ColumnDefinitions>
-            
-            <Button 
-                Content="Add debtor" 
-                HorizontalAlignment="Center"
-                VerticalAlignment="Center"
-                Grid.Row="1" Grid.Column="2"
-                Command="{Binding AddCommand}" 
-                Margin="5"
-            />
-
+        <WrapPanel DockPanel.Dock="Top" Margin="10">
             <Label 
                 Content="The Debt book" 
-                Grid.Row="1"
-                Grid.Column="1"
-                HorizontalAlignment="Center"
-                VerticalAlignment="Center"
                 Margin="5" 
             />
+            <Button
+                Content="Add debtor" 
+                Command="{Binding AddCommand}" 
+                Margin="5" 
+                MinHeight="25" 
+                MinWidth="75"
+            />
+        </WrapPanel>
 
-            <DataGrid      
+        <DataGrid      
                 ItemsSource="{Binding Path=Debtors}"
                 SelectedItem="{Binding Path=CurrentDebtor}"
                 SelectedIndex="{Binding Path=CurrentIndex}"
                 IsSynchronizedWithCurrentItem="True" 
-                Name="DataGrid1"  
-                Grid.Column="1"
-                Grid.ColumnSpan="2"
-                Grid.Row="2"
+                Name="DataGrid1" 
+                Margin="10"
                 CanUserAddRows="False" 
                 CanUserDeleteRows="False" 
                 AutoGenerateColumns="False"
-                IsReadOnly="True"
-                MinRowHeight="12"  
+                IsReadOnly="True" 
             >
-                <DataGrid.Columns>
-                    <DataGridTextColumn 
+            <DataGrid.Columns>
+                <DataGridTextColumn 
                         Header="Name"
                         CanUserResize="False"
                         Width="100" 
                         Binding="{Binding Path=Name}" />
-                    <DataGridTextColumn 
+                <DataGridTextColumn 
                         Header="Saldo" 
                         CanUserResize="False"
                         Width="100" 
                         Binding="{Binding Path=Saldo}"/>
-                </DataGrid.Columns>
-                <i:Interaction.Triggers>
-                    <i:EventTrigger EventName="MouseDoubleClick">
-                        <prism:InvokeCommandAction Command="{Binding CheckSaldoCommand}"/>
-                    </i:EventTrigger>
-                </i:Interaction.Triggers>
-            </DataGrid>
-                
-        </Grid>
-      
+            </DataGrid.Columns>
+            <i:Interaction.Triggers>
+                <i:EventTrigger EventName="MouseDoubleClick">
+                    <prism:InvokeCommandAction Command="{Binding CheckSaldoCommand}"/>
+                </i:EventTrigger>
+            </i:Interaction.Triggers>
+        </DataGrid>
     </DockPanel>
 </Window>
 

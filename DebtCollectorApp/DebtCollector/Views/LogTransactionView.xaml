@@ -5,93 +5,59 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DebtCollector.Views"
         mc:Ignorable="d"
-        Title="{Binding Path=Title}" Height="auto" Width="400"
-        WindowStartupLocation="CenterOwner"
+        Title="{Binding Path=Title}" Height="300" Width="300"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize"
         FocusManager.FocusedElement="{Binding ElementName=TbxValue}"
         ShowInTaskbar="False">
     <DockPanel>
-        <Grid>
-            <Grid.RowDefinitions>
-                <RowDefinition Height="20"/>
-                <RowDefinition Height="auto"/>
-                <RowDefinition Height="auto"/>
-                <RowDefinition Height="20"/>
-            </Grid.RowDefinitions>
-
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="20"/>
-                <ColumnDefinition Width="auto"/>
-                <ColumnDefinition Width="auto"/>
-                <ColumnDefinition Width="auto"/>
-                <ColumnDefinition Width="20"/>
-                <ColumnDefinition />
-            </Grid.ColumnDefinitions>
-
+        <WrapPanel DockPanel.Dock="Top" Margin="10">
             <TextBox 
                 x:Name="TbxValue"
-                Text="{Binding Path=CurrentTransaction.Amount}"
-                HorizontalAlignment="Center"  
-                Grid.Row="2"
-                Grid.Column="2"              
+                Text="{Binding Path=CurrentTransaction.Amount}"            
                 Margin="5" 
                 Width="75"
-                Height="20"
-             />
+                />
             <Button 
                 x:Name="button_add_value" 
-                Content="Add Amount" 
-                Grid.Column="2"
-                Grid.Row="1"                
-                HorizontalAlignment="Center" 
+                Content="Add"             
                 Margin="5" 
-                VerticalAlignment="Top" 
-                MinHeight="25" 
-                MinWidth="75"   
+                Width="75"   
                 Command="{Binding Path=AddValuebtnCommand}"
                 Click="button_add_value_Click" IsDefault="True"
             />
             <Button   
-                IsCancel="True" 
-                TabIndex="6"
-                Grid.Column="3"
-                Grid.Row="1"
-                MinHeight="25" 
-                MinWidth="75"  
+                IsCancel="True"  
+                Width="75"  
                 Name="btnCancel" 
                 Content="Close"
-                Margin="5" 
-                HorizontalAlignment="Center" 
-                VerticalAlignment="Center" 
+                Margin="5"                
             />
+        </WrapPanel>
 
-            <DataGrid      
-                ItemsSource="{Binding Path=CurrentDebtor.Transactions}"
-                SelectedItem="{Binding Path=CurrentTransaction}"
-                Name="DataTrans"
-                Grid.Column="1"
-                Grid.Row="1"
-                Grid.RowSpan="2"
-                CanUserAddRows="False" 
-                CanUserDeleteRows="False" 
-                AutoGenerateColumns="False"
-                IsReadOnly="True"
-                MinRowHeight="12"                   
-             >
-                <DataGrid.Columns>
-                    <DataGridTextColumn 
+        <DataGrid 
+            Margin="10"
+            ItemsSource="{Binding Path=CurrentDebtor.Transactions}"
+            SelectedItem="{Binding Path=CurrentTransaction}"
+            Name="DataTrans"       
+            CanUserAddRows="False" 
+            CanUserDeleteRows="False" 
+            AutoGenerateColumns="False"
+            IsReadOnly="True"                             
+        >
+            <DataGrid.Columns>
+                <DataGridTextColumn 
                     Header="Date"
                     CanUserResize="False"
-                    Width="100" 
-                    Binding="{Binding Path=Date}" />
-                    <DataGridTextColumn 
+                    Binding="{Binding Path=Date}" 
+                />
+                <DataGridTextColumn 
                     Header="Amount" 
-                    CanUserResize="False"
-                    Width="100" 
-                    Binding="{Binding Path=Amount}"/>
-                </DataGrid.Columns>
-            </DataGrid>
-           
-        </Grid>
+                    CanUserResize="False"     
+                    Binding="{Binding Path=Amount}"
+                />
+            </DataGrid.Columns>
+        </DataGrid>
     </DockPanel>
 </Window>
 
