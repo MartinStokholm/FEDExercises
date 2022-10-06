@@ -9,7 +9,9 @@
         WindowStartupLocation="CenterScreen"
         ResizeMode="NoResize"
         FocusManager.FocusedElement="{Binding ElementName=TbxValue}"
-        ShowInTaskbar="False">
+        ShowInTaskbar="False"
+        Background="{DynamicResource ResourceKey=BackgroundBrush}"
+>
     <DockPanel>
         <WrapPanel DockPanel.Dock="Top" Margin="10">
             <TextBox 
@@ -24,6 +26,7 @@
                 Margin="5" 
                 Width="75"   
                 Command="{Binding Path=AddValuebtnCommand}"
+                Style="{StaticResource ResourceKey=CustomButtonStyle}"
                 Click="button_add_value_Click" IsDefault="True"
             />
             <Button   
@@ -31,7 +34,8 @@
                 Width="75"  
                 Name="btnCancel" 
                 Content="Close"
-                Margin="5"                
+                Margin="5"  
+                Style="{StaticResource ResourceKey=CustomButtonStyle}"
             />
         </WrapPanel>
 

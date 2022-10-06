@@ -10,7 +10,9 @@
         WindowStartupLocation="CenterScreen"
         FocusManager.FocusedElement="{Binding ElementName=txt_Name}"
         ShowInTaskbar="False"
-        Title="{Binding Path=Title}">
+        Title="{Binding Path=Title}"
+        Background="{DynamicResource ResourceKey=BackgroundBrush}"
+>
     <StackPanel Margin="10">
         <StackPanel>
             <Label Content="Name"/>
@@ -39,6 +41,7 @@
                 Content="_Save"
                 Command="{Binding Path=SaveBtnCommand}"
                 Click="btn_save_Click"
+                Style="{StaticResource ResourceKey=CustomButtonStyle}"
             />
             <Button 
                 Margin="5"
@@ -46,6 +49,7 @@
                 Content="Cancel"
                 Command="{Binding Path=CancelBtnCommand}"
                 Click="btn_cancel_Click"
+                Style="{StaticResource ResourceKey=CustomButtonStyle}"
             />
         </StackPanel>
     </StackPanel>

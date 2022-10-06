@@ -12,6 +12,7 @@
         WindowStartupLocation="CenterScreen"
         SizeToContent="Height"
         Activated="Window_Activated"
+        Background="{DynamicResource ResourceKey=BackgroundBrush}"
 >
     <DockPanel Name="dockPanelMain">
         <Menu DockPanel.Dock="Top" Name="mainMenu">
@@ -33,6 +34,7 @@
                 Margin="5" 
                 MinHeight="25" 
                 MinWidth="75"
+                Style="{StaticResource ResourceKey=CustomButtonStyle}"
             />
         </WrapPanel>
 
