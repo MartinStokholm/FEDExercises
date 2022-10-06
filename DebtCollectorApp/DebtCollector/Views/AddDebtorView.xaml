@@ -5,65 +5,63 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DebtCollector.Views"
         mc:Ignorable="d"
-        Height="250" Width="300"
+        Height="auto" Width="400"
         WindowStartupLocation="CenterOwner"
         FocusManager.FocusedElement="{Binding ElementName=txt_Name}"
         ShowInTaskbar="False"
         Title="{Binding Path=Title}">
-    
-    <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="20"/>
-            <ColumnDefinition Width="auto"/>
-            <ColumnDefinition Width="auto"/>
-            <ColumnDefinition Width="20"/>
-        </Grid.ColumnDefinitions>
 
+    <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="20"/>
             <RowDefinition Height="auto"/>
             <RowDefinition Height="auto"/>
             <RowDefinition Height="auto"/>
-            <RowDefinition Height="auto"/>
-            <RowDefinition Height="auto"/>
-            <RowDefinition Height="auto"/>
             <RowDefinition Height="20"/>
         </Grid.RowDefinitions>
+        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="20"/>
+        </Grid.ColumnDefinitions>
 
         <Label 
             Content="Name"
+            Grid.Row="1"
+            Grid.Column="1"
+        />
+
+        <Label 
+            Content="Initial Amount"
             Grid.Row="2"
             Grid.Column="1"
         />
 
         <TextBox 
             Name="txt_Name"
-            Grid.Row="2"
+            Grid.Row="1"
             Grid.Column="2"
             Width="100"
             Margin="5"
             Text="{Binding Path=CurrentDebtor.Name}"
-            Style="{StaticResource TextBoxStyle}"
+            
         />
 
         <TextBox 
             Name="txt_InitialAmount"
-            Grid.Row="3"
+            Grid.Row="2"
             Grid.Column="2"
             Width="100"
             Margin="5"
             Text="{Binding Path=CurrentTransaction.Amount}"
-            Style="{StaticResource TextBoxStyle}"
+            
         />
-        
-        <Label 
-            Content="Initial Amount"
-            Grid.Row="3"
-            Grid.Column="1"
-        />
-
+       
         <Button 
-            Grid.Row="6" 
+            Grid.Row="3" 
             Grid.Column="1"
             Margin="5"
             Name="btn_save"
@@ -73,7 +71,7 @@
         />
 
         <Button 
-            Grid.Row="6" 
+            Grid.Row="3" 
             Grid.Column="2"
             Margin="5"
             Name="btn_cancel"

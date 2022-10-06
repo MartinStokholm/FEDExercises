@@ -8,9 +8,10 @@
         xmlns:local="clr-namespace:DebtCollector"
         mc:Ignorable="d"
         prism:ViewModelLocator.AutoWireViewModel="True"
-        Title="{Binding Title}" Height="450" Width="500"
+        Title="{Binding Title}" Height="auto" Width="auto"
         WindowStartupLocation="CenterOwner"
-        Background="{DynamicResource ResourceKey=BackgroundBrush}"
+        SizeToContent="Width"
+       
         Activated="Window_Activated"
         >
     
@@ -24,62 +25,75 @@
             </MenuItem>
         </Menu>
 
-        <Border BorderBrush="Black" BorderThickness="2">
-            <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0,0,0,0">
-
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="100"/>
-                    <RowDefinition/>
-                </Grid.RowDefinitions>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="20"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="20"/>
+            </Grid.RowDefinitions>
                 
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
-                    <ColumnDefinition Width="150"/>
-                </Grid.ColumnDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="20"/>
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition Width="20"/>
+            </Grid.ColumnDefinitions>
+            
+            <Button 
+                Content="Add debtor" 
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                Grid.Row="1" Grid.Column="2"
+                Command="{Binding AddCommand}" 
+                Margin="5"
+            />
 
-                <Button 
-                    Content="Add debtor" 
-                    HorizontalAlignment="Center" 
-                    VerticalAlignment="Top" FontSize="24" Grid.Row="1" Grid.Column="1"
-                    Command="{Binding AddCommand}" Margin="0,40,0,0"
-                />
+            <Label 
+                Content="The Debt book" 
+                Grid.Row="1"
+                Grid.Column="1"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                Margin="5" 
+            />
 
-
-                <Label 
-                    Content="Debtors" 
-                    HorizontalAlignment="Left" 
-                    Margin="25,20,0,0" 
-                    VerticalAlignment="Top" FontSize="36" FontWeight="Bold"
-               />
-
-                <DataGrid      
-                    ItemsSource="{Binding Path=Debtors}"
-                    SelectedItem="{Binding Path=CurrentDebtor}"
-                    SelectedIndex="{Binding Path=CurrentIndex}"
-                    IsSynchronizedWithCurrentItem="True" 
-                    AutoGenerateColumns="False"
-                    Name="DataGrid1"
-                    Margin="20,5,10,5"
-                    Grid.Column="0"
-                    Grid.Row="1"
-                    CanUserAddRows="False" 
-                    CanUserDeleteRows="False" 
-                    IsReadOnly="True"
-                    MinRowHeight="12"  
-                >
-                    <DataGrid.Columns>
-                        <DataGridTextColumn Header="Name" Width="2*" Binding="{Binding Path=Name}" />
-                        <DataGridTextColumn Header="Balance" Width="1*" Binding="{Binding Path=Saldo}"/>
-                    </DataGrid.Columns>
-                    <i:Interaction.Triggers>
-                        <i:EventTrigger EventName="MouseDoubleClick">
-                            <prism:InvokeCommandAction Command="{Binding CheckSaldoCommand}"/>
-                        </i:EventTrigger>
-                    </i:Interaction.Triggers>
-                </DataGrid>
-                <Line Stroke= "Black" X1="0" Y1="95" X2="2000" Y2="95" />
-            </Grid>
-        </Border>
+            <DataGrid      
+                ItemsSource="{Binding Path=Debtors}"
+                SelectedItem="{Binding Path=CurrentDebtor}"
+                SelectedIndex="{Binding Path=CurrentIndex}"
+                IsSynchronizedWithCurrentItem="True" 
+                Name="DataGrid1"  
+                Grid.Column="1"
+                Grid.ColumnSpan="2"
+                Grid.Row="2"
+                CanUserAddRows="False" 
+                CanUserDeleteRows="False" 
+                AutoGenerateColumns="False"
+                IsReadOnly="True"
+                MinRowHeight="12"  
+            >
+                <DataGrid.Columns>
+                    <DataGridTextColumn 
+                        Header="Name"
+                        CanUserResize="False"
+                        Width="100" 
+                        Binding="{Binding Path=Name}" />
+                    <DataGridTextColumn 
+                        Header="Saldo" 
+                        CanUserResize="False"
+                        Width="100" 
+                        Binding="{Binding Path=Saldo}"/>
+                </DataGrid.Columns>
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="MouseDoubleClick">
+                        <prism:InvokeCommandAction Command="{Binding CheckSaldoCommand}"/>
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+            </DataGrid>
+                
+        </Grid>
+      
     </DockPanel>
 </Window>
 

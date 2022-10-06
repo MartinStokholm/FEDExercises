@@ -24,7 +24,6 @@ C:\Users\msldk\Desktop\Uni\SoftwareTeknologi\4Semester\FED\FEDExercises\DebtColl
 C:\Users\msldk\Desktop\Uni\SoftwareTeknologi\4Semester\FED\FEDExercises\DebtCollectorApp\DebtCollector\obj\Debug\DebtCollector.csproj.CopyComplete
 C:\Users\msldk\Desktop\Uni\SoftwareTeknologi\4Semester\FED\FEDExercises\DebtCollectorApp\DebtCollector\obj\Debug\DebtCollector.exe
 C:\Users\msldk\Desktop\Uni\SoftwareTeknologi\4Semester\FED\FEDExercises\DebtCollectorApp\DebtCollector\obj\Debug\DebtCollector.pdb
-C:\Users\msldk\Desktop\Uni\SoftwareTeknologi\4Semester\FED\FEDExercises\DebtCollectorApp\DebtCollector\obj\Debug\App.baml
 C:\Users\msldk\Desktop\Uni\SoftwareTeknologi\4Semester\FED\FEDExercises\DebtCollectorApp\DebtCollector\obj\Debug\Views\AddDebtorView.g.cs
 C:\Users\msldk\Desktop\Uni\SoftwareTeknologi\4Semester\FED\FEDExercises\DebtCollectorApp\DebtCollector\obj\Debug\Views\AddDebtorView.baml
 C:\Users\msldk\Desktop\Uni\SoftwareTeknologi\4Semester\FED\FEDExercises\DebtCollectorApp\DebtCollector\obj\Debug\Views\LogTransactionView.g.cs
