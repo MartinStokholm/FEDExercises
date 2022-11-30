@@ -39,8 +39,9 @@ const Layout = () => {
           </li>
         </ul>
       </nav>
-
-      <Outlet />
+      <div className="bg-blue-200 p-4 h-screen">
+        <Outlet />
+      </div>
     </>
   );
 };
